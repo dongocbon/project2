@@ -1,0 +1,255 @@
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;}
+/*.ladi-wraper-page{
+  background-color: #f5f6f9 !important; }*/
+.header{
+	background-image: url(../image/header.jpg);
+	background-size: cover;
+   background-position: center;
+    height: 900px;
+}
+.image-header{
+	padding-top:20px;
+}
+.image-header img{
+  width: 120px;
+  height: 25px;
+  float: left;
+}
+
+.header-ladi{
+	border:6px solid white;
+	border-collapse: collapse;
+	margin:auto;
+	margin-top: 15%;
+
+}
+.text-header{
+	font-size: 72px;
+	color: white;
+	line-height: 80px;
+}
+.widget-content{
+	font-size: 18px;
+    color: rgba(255,255,255,1);
+	line-height:22px;
+	text-align: center;
+}
+.header-button{
+	margin: 10% 0%;
+	font-size: 14px;
+
+}
+.section{
+	padding-top: 30px;
+}
+.image-header i{
+	width:40px;
+	float: right;
+}
+.section-border{
+	height: 120px;
+	width: 120px;
+	margin: auto;
+	border-radius:120px;
+	background: green;
+	text-align: center;
+}
+.number-1{
+	font-size: 80px;
+	margin-top: 0px;
+}
+.section-image{
+	background-image: url('../image/featured-image-1.jpg');
+	width:100%;
+	background-repeat: no-repeat;
+	height: 380px;
+	position: relative;
+   margin: auto;
+    margin-left: 20px;
+}
+.icon{
+	margin:5px 10px;
+	text-align: center;
+	font-size: 14px;
+	width: 20%;
+	
+}
+.opacity-image{
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	bottom:0px;
+	width: 380px;
+	left: 0px;
+	height: 80px;
+	color: white;
+
+}
+.image{
+	padding: 60px 0px;
+}
+
+.section-content-1{
+	background: #fff;
+	width: 100%;
+	padding-top: 40px;
+}
+.text-section-1{
+	padding-top:10%;
+
+}
+
+.section-3{
+	background: green;
+	padding-top:6%;
+	padding-bottom: 5%;
+
+}
+.section-3 img{
+   padding-left: 20px;
+   padding-top: 20px;
+}
+.image-section-1{
+	margin-bottom: 20px;
+}
+
+.section-content{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: #f5f6f9;
+}
+.section-4{
+	padding-top: 40px;
+	background-image: url('../image/backgroud-section.jpg');
+}
+.boder{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    height: 40px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    border-collapse: collapse;
+    clear: both;
+    padding-bottom: 0px;
+}
+.section-5{
+	padding:40px;
+	background: #f5f6f9;
+}
+.bk-cl{
+	padding-bottom: 20px;
+	background: white;
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 5px;
+}
+.text-button{
+	padding-bottom: 30px;
+}
+ .section-6{
+ 	padding: 40px 0px;
+ }
+ h4{
+ 	font-size: 18px;
+ }
+.section6-image img{
+	width: 80px;
+	height: 80px;
+	border-radius:80px;
+	
+}
+.sort{
+	max-width: 100px;
+	background: green;
+	justify-content: center;
+}
+.section6-text{
+	border:3px solid #dddddd;
+	border-collapse: collapse;
+	font-size: 16px;
+    width: 750px;
+    height: 109px;
+	 color: rgba(117,117,117,1);
+    line-height: 22px;
+}
+.image-section6{
+	z-index: 99;
+}
+.image-section6 img{
+	margin-left: 20px;
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+}
+.footer{
+	background-image: url('../image/footer.jpg');
+    padding-top: 10%;
+    padding-bottom: 20px;
+    color: white;
+}
+.section-image-index{
+	 display: flex;
+    position: relative;
+    align-items: center;
+}
+.section-text1{
+	position: absolute;
+	left: 20%;
+}
+.section-text1 h3{
+color: green;
+font-size: 20px;
+padding-left: 16%;
+}
+.section-text1 p{
+	padding-left: 16%;
+}
+.section6-text{
+	padding-left: 16%;
+}
+input{
+	width: 100%;
+	line-height: 35px;
+}
+.borer{
+	border: 2px solid white;
+	border-collapse: collapse;
+	padding:20px;
+	margin-left: 20px;
+}
+
+.section6-text1 h3{
+	color: green;
+}
+.text-div-02{text-align: left;}
+ @media all and (max-width: 1000px){
+  .section6-text1{
+  	justify-content: center;
+  	text-align: center;
+  }
+  .center-div{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-div1{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.center-div11{
+	padding-left: 0px;
+}
+.text-div-02{
+	text-align: center;
+}
+
+.section-01{padding-bottom: 50px;}
+}
